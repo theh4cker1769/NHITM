@@ -29,6 +29,7 @@ body {
     color: white;
     margin-bottom: 0;
     margin-top: 0;
+    color: #eba809;
 }
 
 
@@ -43,7 +44,7 @@ body {
     justify-content: center;
     -webkit-justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 80px;
     padding: 20px;
 }
 
@@ -191,6 +192,7 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: #AD7D52;
+    text-transform: uppercase;
 }
 
 .card:hover .card__img--hover {
@@ -212,6 +214,13 @@ body {
     margin: 0 auto;
     display: block;
     margin-top: 10px;
+}
+
+.heading {
+    font-size: 48px;
+    text-align: center;
+    color: #df9209;
+    text-decoration: underline;
 }
 
 
