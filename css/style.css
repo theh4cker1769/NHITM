@@ -13,7 +13,28 @@ html {
 }
 
 body {
-    background-color: #D2DBDD;
+    background: linear-gradient(to bottom, #566062, #1f2121);
+
+}
+
+.main-title-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 78px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.main-title-marathi {
+    font-size: 58px;
+    margin-top: 10px;
 }
 
 .cards {
@@ -29,16 +50,62 @@ body {
 .title {
     text-align: center;
     font-size: 52px;
+    color: white;
 }
 
 .card--1 .card__img,
 .card--1 .card__img--hover {
-    background-image: url('../images/1.jpg');
+    background-image: url('../images/1.png');
 }
 
 .card--2 .card__img,
 .card--2 .card__img--hover {
-    background-image: url('../images/1.jpg');
+    background-image: url('../images/2.png');
+}
+
+.card--3 .card__img,
+.card--3 .card__img--hover {
+    background-image: url('../images/3.png');
+}
+
+.card--4 .card__img,
+.card--4 .card__img--hover {
+    background-image: url('../images/4.png');
+}
+
+.card--5 .card__img,
+.card--5 .card__img--hover {
+    background-image: url('../images/5.jpg');
+}
+
+.card--6 .card__img,
+.card--6 .card__img--hover {
+    background-image: url('../images/6.png');
+}
+
+.card--7 .card__img,
+.card--7 .card__img--hover {
+    background-image: url('../images/7.png');
+}
+
+.card--8 .card__img,
+.card--8 .card__img--hover {
+    background-image: url('../images/8.png');
+}
+
+.card--9 .card__img,
+.card--9 .card__img--hover {
+    background-image: url('../images/9.png');
+}
+
+.card--10 .card__img,
+.card--10 .card__img--hover {
+    background-image: url('../images/10.png');
+}
+
+.card--11 .card__img,
+.card--11 .card__img--hover {
+    background-image: url('../images/11.png');
 }
 
 .card__img {
@@ -140,10 +207,33 @@ body {
     opacity: 1;
 }
 
+.cus-img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
 
 @media screen and (max-width:540px) {
 
     .card {
         width: 100%;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .main-title {
+        font-size: 42px;
+    }
+
+    .main-title-marathi {
+        font-size: 32px;
+    }
+
+    .cus-img {
+        width: 150px;
     }
 }
