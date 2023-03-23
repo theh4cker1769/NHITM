@@ -223,6 +223,15 @@ body {
     text-decoration: underline;
 }
 
+.clg-setion {
+    display: flex;
+    align-items: center;
+}
+
+.clg-setion h2 {
+    color: #22b14d;
+    font-size: 42px;
+}
 
 @media screen and (max-width:540px) {
 
@@ -244,5 +253,13 @@ body {
 
     .cus-img {
         width: 150px;
+    }
+
+    .clg-setion {
+        flex-wrap: wrap;
+    }
+
+    .clg-setion h2{
+        text-align: center;
     }
 }
