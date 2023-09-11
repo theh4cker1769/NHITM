@@ -56,12 +56,12 @@ body {
 
 .card--1 .card__img,
 .card--1 .card__img--hover {
-    background-image: url('../images/1.png');
+    background-image: url('../images/1.jpg');
 }
 
 .card--2 .card__img,
 .card--2 .card__img--hover {
-    background-image: url('../images/2.png');
+    background-image: url('../images/2.jpg');
 }
 
 .card--3 .card__img,
@@ -71,7 +71,7 @@ body {
 
 .card--4 .card__img,
 .card--4 .card__img--hover {
-    background-image: url('../images/4.png');
+    background-image: url('../images/4.jpg');
 }
 
 .card--5 .card__img,
@@ -81,7 +81,7 @@ body {
 
 .card--6 .card__img,
 .card--6 .card__img--hover {
-    background-image: url('../images/6.png');
+    background-image: url('../images/6.jpg');
 }
 
 .card--7 .card__img,
@@ -101,7 +101,7 @@ body {
 
 .card--10 .card__img,
 .card--10 .card__img--hover {
-    background-image: url('../images/10.png');
+    background-image: url('../images/10.jpg');
 }
 
 .card--11 .card__img,
