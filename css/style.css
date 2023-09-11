@@ -34,8 +34,8 @@ body {
 
 
 .main-title-marathi {
-    font-size: 58px;
-    margin-top: 10px;
+    font-size: 36px;
+    margin-top: -45px;
 }
 
 .cards {
@@ -211,7 +211,6 @@ body {
 
 .cus-img {
     width: 200px;
-    margin: 0 auto;
     display: block;
     margin-top: 10px;
 }
@@ -226,6 +225,7 @@ body {
 .clg-setion {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .clg-setion h2 {
@@ -249,6 +249,7 @@ body {
 
     .main-title-marathi {
         font-size: 32px;
+        margin-top: -24px;
     }
 
     .cus-img {
